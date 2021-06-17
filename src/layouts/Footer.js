@@ -5,13 +5,13 @@ import "../styles/Footer.css"
 const Footer = () => {
   return (
     <div className='footer'>
-      <h2>Stopka</h2>
+      <h2>Footer</h2>
       <Route
         path='/'
         exact
         render={(props) => (
           <p>
-            Jesteś na <span>stronie głównej</span>
+            You're on <span>home</span> page
           </p>
         )}
       />
@@ -19,10 +19,9 @@ const Footer = () => {
         path='/:page'
         exact
         render={(props) => {
-          console.log(props)
           return (
             <p>
-              Jesteś na <span>{props.match.params.page}</span>
+              You're on <span>{props.match.params.page}</span> page
             </p>
           )
         }}
@@ -32,11 +31,11 @@ const Footer = () => {
         path='/:page/:idProduct'
         exact
         render={(props) => {
-          console.log(props)
           return (
             <p>
-              Jesteś na{" "}
-              <span>{`${props.match.params.page}/${props.match.params.idProduct}`}</span>
+              You're on{" "}
+              <span>{`${props.match.params.page}/${props.match.params.idProduct}`}</span>{" "}
+              page
             </p>
           )
         }}
