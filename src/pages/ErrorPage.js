@@ -1,7 +1,7 @@
 import React from "react"
 
 const ErrorPage = () => {
-  return <div>Nie ma takiej strony</div>
+  return <div>This page doesn't exist</div>
 }
 
 export default ErrorPage
