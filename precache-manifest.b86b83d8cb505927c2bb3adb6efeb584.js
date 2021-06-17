@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d02bd0d8593fe7a5c39f",
-    "url": "/13.Simple_ReactApp/static/css/main.e7771c58.chunk.css"
+    "revision": "b03a02a85d7018543503",
+    "url": "/13.Simple_ReactApp/static/css/main.b14c8160.chunk.css"
   },
   {
-    "revision": "d02bd0d8593fe7a5c39f",
-    "url": "/13.Simple_ReactApp/static/js/main.18213038.chunk.js"
+    "revision": "b03a02a85d7018543503",
+    "url": "/13.Simple_ReactApp/static/js/main.6bf94150.chunk.js"
   },
   {
     "revision": "27c44bdb87df596902e1",
     "url": "/13.Simple_ReactApp/static/js/runtime~main.434cc5c5.js"
   },
   {
-    "revision": "773438002362cc0588cb",
-    "url": "/13.Simple_ReactApp/static/js/2.0389827c.chunk.js"
+    "revision": "208ee9982162c93fcdd7",
+    "url": "/13.Simple_ReactApp/static/js/2.83e6d277.chunk.js"
   },
   {
     "revision": "f2e5ef941e887f614c1cdd83eb891f79",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/13.Simple_ReactApp/static/media/header4.299a7c77.jpg"
   },
   {
-    "revision": "4d0c9d879e9292f7c1c335a118ec2b00",
+    "revision": "f155782284d02eb1551ba53817a3ed46",
     "url": "/13.Simple_ReactApp/index.html"
   }
 ];
