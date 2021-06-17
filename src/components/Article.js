@@ -1,16 +1,12 @@
 import React from "react"
+import "../styles/Article.css"
 
 const Article = ({ title, author, text }) => {
-  const styles = {
-    marginTop: 40,
-  }
   return (
-    <article style={styles}>
-      <h3 style={{ marginBottom: 3, textTransform: "uppercase" }}>{title}</h3>
-      <span style={{ marginBottom: 10, display: "block", fontSize: 12 }}>
-        {author}
-      </span>
-      <p style={{ fontSize: 15 }}>{text}</p>
+    <article className='article-item'>
+      <h3 className='article-title'>{title}</h3>
+      <span className='article-author'>Author: {author}</span>
+      <p className='article-text'>{text}</p>
     </article>
   )
 }

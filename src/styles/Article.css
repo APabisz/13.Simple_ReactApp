@@ -1,0 +1,28 @@
+.article-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0 0 3px 0 #ddd;
+}
+
+.article-title {
+  text-transform: "uppercase";
+  font-size: "1.0em";
+}
+
+.article-author {
+  margin-bottom: 10px;
+  display: "block";
+  font-size: 0.6em;
+}
+
+.article-text {
+  margin-top: 20px;
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+@media (max-width: 800px) {
+  .article-item {
+    padding-right: 0;
+  }
+}
