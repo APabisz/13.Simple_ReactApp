@@ -23,17 +23,17 @@ class ContactPage extends React.Component {
     return (
       <div className='contact'>
         <form onSubmit={this.handleSubmitButton}>
-          <h3>Napisz do nas</h3>
+          <h3>Write to us</h3>
           <textarea
-            placeholder='Wpisz wiadomość...'
+            placeholder='Your message...'
             value={this.state.value}
             onChange={this.handleTextareaChange}
           ></textarea>
-          <button>Wyślij</button>
+          <button>Send</button>
         </form>
         <Prompt
           when={this.state.value.length > 0 ? true : false}
-          message='Masz niewypełniony formularz. Czy na pewno chcesz opuścić tę stronę?'
+          message="You haven't sent your form. Are you sure you want to leave this page? Your message will be lost."
         />
       </div>
     )
