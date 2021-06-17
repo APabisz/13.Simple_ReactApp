@@ -1,5 +1,6 @@
 .article-item {
   margin-bottom: 30px;
+  margin-right: 30px;
   padding: 20px;
   box-shadow: 0 0 3px 0 #ddd;
 }
@@ -23,6 +24,6 @@
 
 @media (max-width: 800px) {
   .article-item {
-    padding-right: 0;
+    margin-right: 0;
   }
 }
